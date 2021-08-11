@@ -12,6 +12,6 @@ spec:
       class: best-effort-medium
       storageClass: wcp
     workers:
-      count: 3
+      count: 0
       class: best-effort-medium
       storageClass: wcp
