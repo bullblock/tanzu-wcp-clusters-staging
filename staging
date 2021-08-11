@@ -5,7 +5,7 @@ metadata:
   namespace: staging
 spec:
   distribution:
-    fullVersion: v1.19.7+vmware.1-tkg.1.fc82c41
+    fullVersion: v1.19.11---vmware.1-tkg.1.9d9b236
   topology:
     controlPlane:
       count: 1
