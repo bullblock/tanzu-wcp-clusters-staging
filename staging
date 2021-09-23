@@ -1,8 +1,8 @@
 apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster
 metadata:
-  name: prd-cls-1
-  namespace: production
+  name: stg-cls-1
+  namespace: staging
 spec:
   distribution:
     fullVersion: v1.19.14---vmware.1-tkg.1.8753786 
