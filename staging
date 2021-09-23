@@ -5,7 +5,7 @@ metadata:
   namespace: production
 spec:
   distribution:
-    fullVersion: v1.19.7---vmware.1-tkg.2.f52f85a
+    fullVersion: v1.19.14---vmware.1-tkg.1.8753786 
   topology:
     controlPlane:
       count: 1
