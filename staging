@@ -5,8 +5,8 @@ metadata:
   namespace: staging
 spec:
   distribution:
-#    fullVersion: 1.20.9+vmware.1-tkg.1.a4cee5b
-    fullVersion: 1.19.14+vmware.1-tkg.1.8753786
+    fullVersion: 1.20.9+vmware.1-tkg.1.a4cee5b
+#    fullVersion: 1.19.14+vmware.1-tkg.1.8753786
 #    fullVersion: 1.18.19+vmware.1-tkg.1.17af790
   topology:
     controlPlane:
@@ -14,7 +14,7 @@ spec:
       class: best-effort-medium
       storageClass: wcp
     workers:
-      count: 1
+      count: 2
       class: best-effort-medium
       storageClass: wcp
   settings:
