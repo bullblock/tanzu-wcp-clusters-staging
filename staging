@@ -1,0 +1,28 @@
+apiVersion: run.tanzu.vmware.com/v1alpha2
+kind: TanzuKubernetesCluster
+metadata:
+  name: example-cls
+  namespace: staging
+spec:
+  topology:
+    controlPlane:
+      replicas: 3
+      vmClass: best-effort-large
+      storageClass: dc1-iscsi
+      tkr:  
+        reference:
+          name: v1.21.6---vmware.1-tkg.1.b3d708a
+    nodePools:
+    - name: stg-pool-1
+      replicas: 3
+      vmClass: best-effort-large
+      storageClass: dc1-iscsi
+      tkr:  
+        reference:
+          name: v1.21.6---vmware.1-tkg.1.b3d708a
+  settings:
+    storage:
+      defaultClass: dc1-iscsi
+    network:
+      cni:
+        name: antrea
