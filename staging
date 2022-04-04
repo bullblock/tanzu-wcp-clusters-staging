@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: run.tanzu.vmware.com/v1alpha2
 kind: TanzuKubernetesCluster
 metadata:
@@ -37,3 +38,5 @@ spec:
       cni:
         name: antrea
 
+=======
+>>>>>>> c19a1150f4fd9d576ef8ab569a992f4134de16af
